@@ -1,9 +1,4 @@
 # ESP32 Cam Streamer OpenCV
-
-Foobar is a Python library for dealing with word pluralization.
-
-## Installation
-
 Clone the repository
 
 ```bash
