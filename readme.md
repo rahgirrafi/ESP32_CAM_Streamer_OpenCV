@@ -19,6 +19,13 @@ Here the ESP32 CAM acts as a TCP Client and a host computer acts as a TCP server
 ## How to use
 Your host computer and the ESP32 CAM must be "CONNECTED TO THE SAME LOCAL NETWORK" i.e. same router, same switch etc. This code will not send data over internet.It will only work with LAN network.
 
+## How to use
+The server depends on:
+-socket
+-opencv-python
+-numpy
+
+
 In the Firmware code, make the following changes.
 
 **SSID:** Replace with your own Wifi Network Name.
