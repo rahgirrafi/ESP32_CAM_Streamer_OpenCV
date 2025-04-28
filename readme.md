@@ -16,10 +16,7 @@ The firmware for EPS32 was developed using platformio. You can find all the prog
 ## Project Details
 Here the ESP32 CAM acts as a TCP Client and a host computer acts as a TCP server. The ESP32 CAM only captures the image and sends it to a Local Server through TCP protocol. A host computer that is running the Server code (you can find it in the python directory) will receive the image and load it in openCV. After thatyou can use the image normally and do all the openCV operations with it.
 
-## How to use
-Your host computer and the ESP32 CAM must be "CONNECTED TO THE SAME LOCAL NETWORK" i.e. same router, same switch etc. This code will not send data over internet.It will only work with LAN network.
-
-## How to use
+## Dependencies
 The server depends on:
 
 -socket
@@ -27,6 +24,11 @@ The server depends on:
 -opencv-python
 
 -numpy
+
+
+## How to use
+Your host computer and the ESP32 CAM must be "CONNECTED TO THE SAME LOCAL NETWORK" i.e. same router, same switch etc. This code will not send data over internet.It will only work with LAN network.
+
 
 
 In the Firmware code, make the following changes.
