@@ -21,8 +21,11 @@ Your host computer and the ESP32 CAM must be "CONNECTED TO THE SAME LOCAL NETWOR
 
 ## How to use
 The server depends on:
+
 -socket
+
 -opencv-python
+
 -numpy
 
 
